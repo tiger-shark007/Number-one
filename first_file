@@ -1,21 +1,60 @@
-#first code
 <HTML>
 	<HEAD>
-		<TITLE> Салон Маник </TITLE>
+		<TITLE> Авто Подбор </TITLE>
 	</HEAD>
-	<BODY bgcolor="#FDEEEE" vlink="#014CA1">
+	<BODY bgcolor="#FFFFFF" vlink="#014CA1">
+  <style>
+<center>
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+  </style>
 
-		<H1 align="CENTER"> Салон красоты "Маник" </H1>
-		<p align="CENTER" size="2" fase="Verdana">
-			|<a href="index.html"> Главная </a>
-			|<a href="Yslygi.html"> Услуги </a>
-		 	|<a href="Adres.html"> Адреса </a>
-			|<a href="Novosti.html"> Новости </a>| </p>
-		<p align="JUSTIFY" size="2" fase="Verdana"> Здесь вас ждет слаженная команда, состоящая из опытных, квалифицированных специалистов, регулярно повышающих свой уровень, использующих современные достижения и разработки в сфере beauty-индустрии и эстетической медицины, передовые технологии, безопасные, подтвердившие свою эффективность средства, а также оборудование экспертного класса. Основными принципами работы клиники является индивидуальный подход, соблюдение строгих санитарных норм и требований, а также гарантия результата при демократичных ценах.
-Представлен большой выбор востребованных услуг в области ногтевого сервиса, перманентного макияжа, инъекционной, аппаратной косметологии, а также разнообразные anti-age программы. Особой популярностью пользуются такие новинки, как липолазер, прессотерапия, биоревитализация интимной области, пудровые губы и не только. В кабинете коррекции фигуры выполняется действенная безболезненная липосакция без операции и госпитализации, лечение целлюлита, подтяжки, сглаживание растяжек, план манипуляций и питания разрабатывается персонально для каждого пациента. Для будущих мам разработан ряд процедур с учетом противопоказаний при беременности. Позвоните по указанному номеру телефона, чтобы уточнить детали и записаться на консультацию. </p>
-<p align="CENTER"> <img src="salon.jpg" alt="Салон" width="350" height="350"</p>
+<p> <center> <img src="FotoCar.jpg" width="70" height="50" background: #FFFFFF  class="leftimg">
+ <br>Авто подбор</p>
+  <style>
+   li {
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #CA181A; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-30deg); /* Для Firefox */
+    -o-transform: skewX(-30deg); /* Для Opera */
+    -ms-transform: skewX(-30deg); /* Для IE */
+    transform: skewX(-30deg); /* CSS3 */
+   }
+   a {
+    color: #fff; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 5px 15px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    -webkit-transform: skewX(30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(30deg); /* Для Firefox */
+    -o-transform: skewX(30deg); /* Для Opera */
+    -ms-transform: skewX(30deg); /* Для IE */
+    transform: skewX(30deg); /* CSS3 */
+   }
+   li:hover {
+    background: #333; /* Цвет фона при наведении курсора мыши */
+   }
+  </style>
+  <ul>
+    <li><a href="Glavnaj.html">Главная</a></li>
+    <li><a href="2.html">Подбор авто</a></li>
+    <li><a href="3.html">О нас</a></li>
+    <li><a href="4.html">Контакты</a></li>
+  </ul>
+
+		<p align="JUSTIFY" size="2" fase="Verdana"> Здесь мб будет текст </p>
+<p align="CENTER"> <img src="CarNiz.jpg" alt="Машина" width="600" height="600"</p>
 		<HR size="1" color="blue" width="80%"> <BR> </HR>
-		<p align="CENTER" size="2" fase="Verdana">  &copy; <a href="mailto:bratikoffaaa3@mail.ru">А.А. Братиков</a> , 2845, 2-ка, ГУАП &ndash; 2010. Все права защищены. </p>
+		<p align="CENTER" size="2" fase="Verdana">  &copy; <a href="mailto:bratikoffaaa3@mail.ru"> А.А. Братиков</a> , 2845, 2-ка, ГУАП &ndash; 2010. Все права защищены. </p>
 	</BODY>
 </HTML>
+
 
