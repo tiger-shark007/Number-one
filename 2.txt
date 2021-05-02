@@ -1,0 +1,124 @@
+<HTML>
+	<HEAD>
+		<TITLE> Авто Подбор </TITLE>
+	</HEAD>
+	<BODY bgcolor="#FFFFFF" vlink="#014CA1">
+  <style>
+<center>
+   .leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+  </style>
+
+<p> <center> <img src="FotoCar.jpg" width="70" height="50" background: #FFFFFF  class="leftimg">
+ <br>Авто подбор</p>
+  <style>
+   li {
+    display: inline-block; /* Строчно-блочные элементы */
+    background: #CA181A; /* Цвет фона */
+    margin-right: 3px; /* Расстояние между пунктами меню */
+    -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(-30deg); /* Для Firefox */
+    -o-transform: skewX(-30deg); /* Для Opera */
+    -ms-transform: skewX(-30deg); /* Для IE */
+    transform: skewX(-30deg); /* CSS3 */
+   }
+   a {
+    color: #fff; /* Цвет ссылок */
+    display: block; /* Блочный элемент */
+    padding: 5px 15px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    -webkit-transform: skewX(30deg); /* Для Safari и Chrome */
+    -moz-transform: skewX(30deg); /* Для Firefox */
+    -o-transform: skewX(30deg); /* Для Opera */
+    -ms-transform: skewX(30deg); /* Для IE */
+    transform: skewX(30deg); /* CSS3 */
+   }
+   li:hover {
+    background: #333; /* Цвет фона при наведении курсора мыши */
+   }
+  </style>
+  <ul>
+    <li><a href="Glavnaj.html">Главная</a></li>
+    <li><a href="2.html">Подбор авто</a></li>
+    <li><a href="3.html">О нас</a></li>
+    <li><a href="4.html">Контакты</a></li>
+  </ul>
+<div class="content">
+ <h1>Подберите автомобиль</h1>
+ <p style="text-align:center;"> <font size="5"></font></p>
+ <main>
+ <form action="act.php" method="POST">
+ <table>
+
+<tr class="l">
+<td> Выберите город или регион</td>
+<td><select style="width: 500px; height: 50px;">
+<option>Не выбрано</option>
+<option>Санкт-Петербург</option>
+<option>Ленинградская область</option>
+<option>Москва</option>
+<option>Московская область</option>
+</td>
+</tr>
+
+ <tr class="r">
+<td> Марка </td>
+<td><select style="width: 500px; height: 50px;">
+<option>Не выбрано</option>
+<option>Audi</option>
+<option>BMW</option>
+<option>Mercedes-Benz</option>
+<option>Volkswagen</option>
+</td>
+ </tr>
+
+ <tr class="l">
+<td> Модель</td>
+<td><select style="width: 500px; height: 50px;">
+<option>Не выбрано</option>
+<option></option>
+<option></option>
+<option></option>
+<option></option>
+</td>
+ </tr>
+
+<tr class="r">
+<td> Коробка передач</td>
+<td><select style="width: 500px; height: 50px;">
+<option>Не выбрано</option>
+<option>Автомат</option>
+<option>Механика</option>
+</td>
+ </tr>
+
+ <tr class="r" >
+<td> Тип двигателя</td>
+<td><select style="width: 500px; height: 50px;">
+<option>Не выбрано</option>
+<option>Бензин</option>
+<option>Дизель</option>
+</tr>
+
+
+<tr class="l">
+<td colspan="2"
+align="center"><button>Отправить</button></td>
+</tr>
+</font>
+</table>
+</form>
+</main>
+</div>
+<p align="CENTER"> <img src="CarNiz.jpg" alt="Машина" width="600" height="600"</p>
+		<HR size="1" color="blue" width="80%"> <BR> </HR>
+		<p align="CENTER" size="2" fase="Verdana">  &copy; <a href="mailto:bratikoffaaa3@mail.ru"> А.А. Братиков</a> , 2845, 2-ка, ГУАП &ndash; 2010. Все права защищены. </p>
+	</BODY>
+</HTML>
+
